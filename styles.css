@@ -1,0 +1,38 @@
+
+.open-sans-font {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+}
+
+/* Common Styles: Reusable styles used across multiple components */
+.display-flex {
+    display: flex;
+}
+/* Dark 02 */
+.text-gray{
+    color: #424242;
+}
+
+/* Dark 03 */
+.text-light-gray{
+    color: #727272;
+}
+
+.bg-light{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+.navbar{
+    justify-content: space-between;
+}
+
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+}
+
+.nav-link{
+    text-decoration: none;
+    font-weight: 500;
+}
