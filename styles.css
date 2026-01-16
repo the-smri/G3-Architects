@@ -38,6 +38,12 @@ main{
     max-width: 1440px;
     margin: 0 auto;
 }
+
+.section-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
 .bg-light{
     background-color: rgba(255, 144, 14, 0.1);
 }
@@ -99,10 +105,7 @@ main{
     max-width: 530px;
 
 }
-.feature-title{
-    font-size: 2.8rem;
-    font-weight: 700;
-}
+
 #quick-list{
     font-weight: 500;
 }
@@ -121,5 +124,16 @@ main{
 
     .our-features{
         margin-left: 20px;
+    }
+}
+
+/* Styles For Medium Size Devices */
+
+@media screen and (min-width: 576px) and (max-width: 992px){
+    .teams{
+        flex-direction: column;
+    }
+    .our-features{
+        margin-left: 50 auto;
     }
 }
